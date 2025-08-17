@@ -101,7 +101,7 @@ class EnhancedFaceDetector:
         try:
             self.client = OpenAI(
                 base_url="https://openrouter.ai/api/v1",
-                api_key="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"
+                api_key=""
             )
             self.assistant_enabled = True
             print("Virtual assistant initialized successfully")
